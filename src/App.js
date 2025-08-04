@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from './components/Header';
+import UserCard from './components/UserCard';
 
 function App() {
   return (
     <div>
-      <h1>Hello from My First React App!</h1>
+      <Header />
+      <UserCard name="Ayan Farooq" role="Frontend Developer" />
+      <UserCard name="Salman" role="Frontend Developer" />
     </div>
   );
 }
-
 export default App;
